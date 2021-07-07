@@ -1,0 +1,12 @@
+//Helpers
+@import'./Helpers/variables';
+
+//Base
+@import './Base/reset';
+@import'./Base/customize';
+
+//Layouts
+@import './Layouts/mainpage';
+
+//Responsive
+@import './Responsive/smscreen';

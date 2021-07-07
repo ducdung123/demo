@@ -1,0 +1,57 @@
+@media screen and (max-width: 568px) {
+    #main--page {
+        height: 30vh;
+        background-position: 100% 30%;
+        .content {
+            padding: 20px 10px;
+            .content__infor {
+                min-height: 150px;
+                .content__infor__name {
+                    font-size: $fs-1;
+                    width: 60%;
+                }
+                .content__infor__img {
+                    width: 120px;
+                    height: 120px;
+                    top: -67px;
+                }
+                .content__infor__contact {
+                    top: 80px;
+                    > div {
+                        font-size: $fs-0;
+                        padding-left: 40px;
+                        i {
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            font-size: $fs-1 - .2;
+                        }
+                    }
+                }
+            }
+            .content__bank{
+                .content__bank__title{
+                    font-size: $fs-1 ;
+                    img {
+                        width: 40px;
+                        
+                    }
+                }
+                .content__bank__content{
+                    padding: 30px 20px;
+                }
+            }
+            .content__social {
+                .content__social__item {
+                    padding: 10px 0;
+                    font-size: $fs-1;
+                    padding-left: 20px;
+                    img {
+                        width: 40px;
+                       
+                    }
+                }
+            }
+        }
+    }
+}

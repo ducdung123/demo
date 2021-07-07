@@ -1,0 +1,13 @@
+.owl-nav{
+    margin-top: 30px;
+    text-align: center;
+    button{
+        outline: none;
+        border: none;
+        background-color: white;
+    }
+    span{
+        font-size: $fs-2;
+        margin: 0 20px;
+    }
+}
